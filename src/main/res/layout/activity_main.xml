@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.thedarknight.wrkshpex.MainActivity"
+    android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:ems="10"
+            android:layout_marginBottom="5dp"
+            android:textSize="60dp"
+            android:clickable="false"
+            android:gravity="right|bottom"
+            android:layout_marginRight="4dp"
+            android:editable="false"
+            android:layout_marginTop="16dp"
+            android:id="@+id/textfield"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_weight="0.77">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            app:srcCompat="@drawable/button_9"
+            android:id="@+id/button_9"
+            android:layout_marginRight="6dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_9" />
+        <ImageButton
+            app:srcCompat="@drawable/button_8"
+            android:id="@+id/button_8"
+            android:layout_marginRight="6dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_8" />
+
+        <ImageButton
+            app:srcCompat="@drawable/button_7"
+            android:id="@+id/button_7"
+            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_7" />
+        <ImageButton
+            app:srcCompat="@drawable/button_x"
+            android:id="@+id/button_x"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_mul" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            app:srcCompat="@drawable/button_6"
+            android:id="@+id/button_6"
+            android:layout_marginRight="6dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_6" />
+        <ImageButton
+            app:srcCompat="@drawable/button_5"
+            android:id="@+id/button_5"
+            android:layout_marginRight="6dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_5" />
+        <ImageButton
+            app:srcCompat="@drawable/button_4"
+            android:id="@+id/button_4"
+            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_4" />
+        <ImageButton
+            app:srcCompat="@drawable/buttonmin"
+            android:id="@+id/button_min"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_min" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        >
+
+        <ImageButton
+            app:srcCompat="@drawable/button3"
+            android:id="@+id/button_3"
+            android:layout_marginRight="6dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_3" />
+        <ImageButton
+            app:srcCompat="@drawable/button_2"
+            android:id="@+id/button_2"
+            android:layout_marginRight="6dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_2" />
+        <ImageButton
+            app:srcCompat="@drawable/button_1"
+            android:id="@+id/button_1"
+            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_1" />
+        <ImageButton
+            app:srcCompat="@drawable/button_plus"
+            android:id="@+id/button_plus"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_add" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageButton
+
+            android:id="@+id/button_das"
+            android:layout_marginRight="9dp"
+            android:layout_height="80dp"
+            android:onClick="reset"
+            android:layout_width="80dp"
+            android:background="@android:drawable/ic_menu_delete" />
+        <ImageButton
+            app:srcCompat="@drawable/button_0"
+            android:id="@+id/button_0"
+            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_0" />
+        <ImageButton
+            app:srcCompat="@drawable/button_equal"
+            android:id="@+id/button_equal"
+            android:layout_marginRight="9dp"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_ans" />
+        <ImageButton
+            app:srcCompat="@drawable/button_div"
+            android:id="@+id/button_div"
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:onClick="click_div" />
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
